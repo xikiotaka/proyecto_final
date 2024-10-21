@@ -1,0 +1,1388 @@
+.INICIAR-SESIN {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .INICIAR-SESIN .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 970px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .overlap {
+    position: absolute;
+    width: 1455px;
+    height: 1061px;
+    top: 0;
+    left: 0;
+  }
+  
+  .INICIAR-SESIN .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px 10px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+  }
+  
+  .INICIAR-SESIN .COTIZACI-n-DE-LAS {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 400;
+    color: #42ff00;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .INICIAR-SESIN .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .INICIAR-SESIN .span {
+    font-family: "Inter-Regular", Helvetica;
+  }
+  
+  .INICIAR-SESIN .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 1172px;
+    height: 707px;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 354px;
+    left: 142px;
+  }
+  
+  .INICIAR-SESIN .rectangle {
+    position: relative;
+    width: 1168px;
+    height: 497px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .div-wrapper {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px 10px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .INICIAR-SESIN .p {
+    position: relative;
+    width: 1174px;
+    margin-top: -12px;
+    margin-bottom: -10px;
+    margin-left: -18px;
+    margin-right: -18px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    height: 79px;
+    margin-bottom: -18px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .INICIAR-SESIN .frame-3 {
+    display: flex;
+    width: 1440px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    position: absolute;
+    top: 104px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .INICIAR-SESIN .frame-4 {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-5 {
+    display: inline-flex;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 4px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #eeeeee;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .menu {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-3 {
+    position: relative;
+    width: 74px;
+    height: 26px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #808080;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+  }
+  
+  .INICIAR-SESIN .frame-6 {
+    display: flex;
+    width: 130px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 4px;
+    position: relative;
+    background-color: #eeeeee;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .icon-search {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .INICIAR-SESIN .frame-7 {
+    display: flex;
+    flex-direction: column;
+    width: 357px;
+    height: 152px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .logo {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 89px;
+    background-image: url(./img/capa-1.svg);
+    background-size: 100% 100%;
+  }
+  
+  .INICIAR-SESIN .frame-8 {
+    display: flex;
+    width: 184.53px;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .element {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .vector {
+    position: relative;
+    width: 29.53px;
+    height: 21px;
+  }
+  
+  .INICIAR-SESIN .frame-9 {
+    display: inline-flex;
+    height: 48px;
+    align-items: flex-end;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .registrarme-wrapper {
+    display: flex;
+    width: 159px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #3d6a4f;
+    border-radius: 4px;
+    border: 0px none;
+  }
+  
+  .INICIAR-SESIN .registrarme {
+    position: relative;
+    flex: 1;
+    margin-top: -8.5px;
+    margin-bottom: -8.5px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 44px;
+  }
+  
+  .INICIAR-SESIN .account-circle {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .INICIAR-SESIN .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 981px;
+    top: 0;
+    left: 0;
+    background-color: #000000cf;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .INICIAR-SESIN .frame-10 {
+    display: flex;
+    width: 1440px;
+    height: 970px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .INICIAR-SESIN .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 395px;
+    height: 630px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 0px 24px 48px;
+    position: relative;
+    background-color: #eef1e6;
+    border-radius: 10px;
+  }
+  
+  .INICIAR-SESIN .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    height: 460px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .REGISTRARME-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .REGISTRARME {
+    margin-top: -1px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #3d6a4f;
+    font-size: 40px;
+    line-height: 28px;
+    position: relative;
+    width: fit-content;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .frame-12 {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-13 {
+    display: flex;
+    flex-direction: column;
+    width: 302px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-variant {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 4px 4px 4px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .mail {
+    position: relative;
+    width: 248px;
+    height: 26px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #808080;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    line-height: 14px;
+  }
+  
+  .INICIAR-SESIN .frame-15 {
+    display: flex;
+    height: 47px; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 10px; 
+    position: relative; 
+    align-self: stretch; 
+    width: 100%; 
+    background-color: #3d6a4f; 
+    border-radius: 4px; 
+    border: none; 
+    cursor: pointer; 
+    color: white; 
+    font-size: 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; 
+}
+
+  .INICIAR-SESIN .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #808080;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 44px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .frame-16 {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -3px;
+  }
+  
+  .INICIAR-SESIN .continue-with-google {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #00000015;
+  }
+  
+  .INICIAR-SESIN .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .INICIAR-SESIN .continue-with-google-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #0000008a;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .continue-with {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #1877f2;
+    border-radius: 10px;
+  }
+  
+  .INICIAR-SESIN .continue-with-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .no-tengo-cuenta {
+    position: relative;
+    align-self: stretch;
+    margin-bottom: -70px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 44px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-5 {
+    color: #000000;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-6 {
+    color: #3d6a4f;
+    text-decoration: underline;
+  }
+  
+  .INICIAR-SESIN .capa {
+    position: absolute;
+    width: 194px;
+    height: 193px;
+    top: 706px;
+    left: 845px;
+    background-image: url(./img/grupo-1-xa0-imagen.png);
+    background-size: 100% 100%;
+  }
+  
+  .INICIAR-SESIN .cancel {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 194px;
+    left: 847px;
+  }
+  
+  .INICIAR-SESIN .frame-17 {
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 1125px;
+    left: 973px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  
+  .INICIAR-SESIN .LAS-MEJORES-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #3d6a4f;
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  .INICIAR-SESIN .LAS-MEJORES {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 44px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 12px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-image: url(./img/frame-9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .INICIAR-SESIN .frame-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .element-stripe {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-7 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+  }
+  
+  .INICIAR-SESIN .boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #eef1e6;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .frame-21 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 12px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-image: url(./img/frame-10.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .INICIAR-SESIN .frame-22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 12px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-image: url(./img/frame-11.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .INICIAR-SESIN .frame-23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 12px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-image: url(./img/frame-12.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .INICIAR-SESIN .frame-24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px 12px 24px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 0px 0px 8px 8px;
+    background-image: url(./img/frame-13.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .INICIAR-SESIN .frame-25 {
+    display: flex;
+    flex-direction: column;
+    width: 757px;
+    align-items: flex-start;
+    gap: 48px;
+    position: absolute;
+    top: 1125px;
+    left: 142px;
+  }
+  
+  .INICIAR-SESIN .frame-26 {
+    display: flex;
+    flex-direction: column;
+    height: 612px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .INICIAR-SESIN .rectangle-3 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 339px;
+    margin-top: -412px;
+    margin-left: -5289px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .frame-27 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -23px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    height: 80px;
+    margin-top: -1px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 44px;
+  }
+  
+  .INICIAR-SESIN .las-startups-en {
+    position: relative;
+    align-self: stretch;
+    height: 168px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-10 {
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-11 {
+    text-decoration: underline;
+  }
+  
+  .INICIAR-SESIN .frame-28 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 13px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-29 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .rectangle-4 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 339px;
+    margin-top: -1072px;
+    margin-left: -5289px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    height: 103px;
+    font-family: "Roboto-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 44px;
+  }
+  
+  .INICIAR-SESIN .frame-30 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 560px;
+    align-items: flex-start;
+    position: absolute;
+    top: 2622px;
+    left: 0;
+  }
+  
+  .INICIAR-SESIN .frame-31 {
+    display: flex;
+    flex-direction: column;
+    height: 530px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 46px 10px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #eef1e6;
+  }
+  
+  .INICIAR-SESIN .frame-32 {
+    display: flex;
+    height: 438px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 76px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .INICIAR-SESIN .frame-33 {
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    height: 388px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .rectangle-5 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 214px;
+    margin-top: -1977.93px;
+    margin-left: -5297.5px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-13 {
+    position: relative;
+    width: 329px;
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    height: 100px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  
+  .INICIAR-SESIN .frame-34 {
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    height: 446px;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    margin-bottom: -8px;
+  }
+  
+  .INICIAR-SESIN .rectangle-6 {
+    margin-left: -5702.5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 214px;
+    margin-top: -1977.93px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .rectangle-7 {
+    margin-left: -6107.5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 214px;
+    margin-top: -1977.93px;
+    object-fit: cover;
+  }
+  
+  .INICIAR-SESIN .el-ranking-de-marcas {
+    position: relative;
+    align-self: stretch;
+    height: 100px;
+    margin-bottom: -49px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 25px;
+  }
+  
+  .INICIAR-SESIN .frame-35 {
+    display: flex;
+    height: 132px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    margin-bottom: -102px;
+    background-color: #eef1e6;
+  }
+  
+  .INICIAR-SESIN .rectangle-8 {
+    position: relative;
+    width: 18px;
+    height: 17px;
+    background-color: #000000;
+    border-radius: 2px;
+  }
+  
+  .INICIAR-SESIN .rectangle-9 {
+    position: relative;
+    width: 18px;
+    height: 17px;
+    background-color: #00000047;
+    border-radius: 2px;
+  }
+  
+  .INICIAR-SESIN .frame-36 {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 248px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    top: 3284px;
+    left: 0;
+    background-color: #3d6a4f;
+  }
+  
+  .INICIAR-SESIN .frame-37 {
+    display: flex;
+    flex-direction: column;
+    width: 1122px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-38 {
+    display: flex;
+    width: 816px;
+    height: 51px;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .frame-39 {
+    display: inline-flex;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #3d6a4f;
+    border-radius: 4px;
+    border: 2px solid;
+    border-color: #ffffff;
+  }
+  
+  .INICIAR-SESIN .registrarme-2 {
+    margin-top: -10.5px;
+    margin-bottom: -6.5px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+    position: relative;
+    width: fit-content;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .frame-40 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-41 {
+    display: flex;
+    flex-direction: column;
+    width: 1462px;
+    align-items: center;
+    position: absolute;
+    top: 3532px;
+    left: -10px;
+  }
+  
+  .INICIAR-SESIN .frame-42 {
+    display: flex;
+    width: 1443px;
+    height: 365px;
+    align-items: center;
+    justify-content: center;
+    gap: 152px;
+    padding: 44px 0px 0px;
+    position: relative;
+    background-color: #000000;
+  }
+  
+  .INICIAR-SESIN .frame-43 {
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .frame-44 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .TENDENCIA-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-45 {
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 54px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .frame-46 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-47 {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .INICIAR-SESIN .frame-48 {
+    display: flex;
+    width: 53px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 3px 20px;
+    position: relative;
+    background-color: #3d6a4f;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .f {
+    margin-left: -2px;
+    margin-right: -2px;
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .component {
+    position: relative;
+    width: 53px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .overlap-group {
+    position: relative;
+    height: 50px;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .f-wrapper {
+    display: flex;
+    width: 53px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 3px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3d6a4f;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .ellipse-wrapper {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 15px;
+    background-color: #3d6a4f;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: #ffffff;
+  }
+  
+  .INICIAR-SESIN .ellipse {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    top: 4px;
+    left: 4px;
+    background-color: #3d6a4f;
+    border-radius: 6px;
+    border: 2px solid;
+    border-color: #ffffff;
+  }
+  
+  .INICIAR-SESIN .polygon-wrapper {
+    position: relative;
+    width: 53px;
+    height: 50px;
+    background-color: #3d6a4f;
+    border-radius: 4px;
+  }
+  
+  .INICIAR-SESIN .polygon {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: -3058px;
+    left: -5929px;
+  }
+  
+  .INICIAR-SESIN .frame-49 {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    align-items: center;
+    gap: 31px;
+    position: relative;
+  }
+  
+  .INICIAR-SESIN .capa-2 {
+    position: relative;
+    width: 326px;
+    height: 91px;
+    margin-top: -2924.5px;
+    margin-left: -6172px;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-17 {
+    position: relative;
+    width: 249px;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+  .INICIAR-SESIN .capa-3 {
+    position: relative;
+    width: 1462px;
+    height: 410px;
+    background-color: #000000;
+    overflow: hidden;
+  }
+  
+  .INICIAR-SESIN .vector-2 {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    top: -3089px;
+    left: -5137px;
+  }
+  
+  .INICIAR-SESIN .vector-3 {
+    position: absolute;
+    width: 264px;
+    height: 410px;
+    top: -3184px;
+    left: -4822px;
+  }
+  
+  .INICIAR-SESIN .vector-4 {
+    position: absolute;
+    width: 303px;
+    height: 315px;
+    top: -3089px;
+    left: -4545px;
+  }
+  
+  .INICIAR-SESIN .vector-5 {
+    position: absolute;
+    width: 303px;
+    height: 315px;
+    top: -3089px;
+    left: -4229px;
+  }
+  
+  .INICIAR-SESIN .vector-6 {
+    position: absolute;
+    width: 237px;
+    height: 315px;
+    top: -3089px;
+    left: -3912px;
+  }
+  
+  .INICIAR-SESIN .neust-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 28px;
+    left: 1212px;
+  }
+  
+  .INICIAR-SESIN .neust {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Bold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .INICIAR-SESIN .text-wrapper-18 {
+    font-family: "Roboto-Black", Helvetica;
+    font-weight: 900;
+  } 

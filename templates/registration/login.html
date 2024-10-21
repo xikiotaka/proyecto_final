@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link type="text/css" href="{% static 'css/login.css' %}" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="INICIAR-SESIN">
+      <div class="div">
+        <div class="overlap">
+          <div class="frame">
+            <p class="COTIZACI-n-DE-LAS">
+              <span class="text-wrapper">COTIZACIÓN DE LAS MONEDAS CON RESPECTO AL PESO ARGENTINO:</span>
+              <span class="span">
+                Dólar oficial compra $951,43 / venta $1009,76 // Dólar tarjeta $1615,62 // Euro compra $1056,04 / venta
+                $1123,22 // Real compra $180,50 / venta $190,50 // Yuan compra 13405.35 /
+              </span>
+            </p>
+          </div>
+          <div class="frame-2">
+            <img class="rectangle" src="{% static 'img/rectangle-1.png' %}" />
+          </div>
+          <div class="frame-3">
+            <div class="frame-4">
+              <div class="frame-5">
+                <img class="menu" src="{% static 'img/menu.svg' %}" />
+                <div class="text-wrapper-3">Menu</div>
+              </div>
+              <div class="frame-6">
+                <img class="icon-search" src="{% static 'img/icon-search.png' %}" />
+                <div class="text-wrapper-3">Buscar</div>
+              </div>
+            </div>
+            <div class="frame-7">
+              <div class="logo"></div>
+              <div class="frame-8">
+                <div class="element">08:19&nbsp;&nbsp;&nbsp;&nbsp;10/10/2024</div>
+                <img class="vector" src="{% static 'img/vector-3.svg' %}" />
+              </div>
+            </div>
+            <div class="frame-9">
+              <div class="registrarme-wrapper">
+                <div class="registrarme">REGISTRARME</div>
+              </div>
+              <img class="account-circle" src="{% static 'img/account-circle.svg' %}" />
+            </div>
+          </div>
+          <div class="rectangle-2"></div>
+          <div class="frame-10">
+            <div class="frame-wrapper">
+              <div class="frame-11">
+                <div class="REGISTRARME-wrapper"><div class="REGISTRARME">INICIAR SESIÓN</div></div>
+                <div class="frame-12">
+                  <div class="frame-13">
+                    <div class="frame-14">
+                      <!-- FORMULARIO DE INICIO DE SESIÓN -->
+                      <form method="post">
+                        {% csrf_token %}
+                        <!-- Campo para email -->
+                        <div class="frame-variant">
+                          <label for="id_username">E-mail</label>
+                          {{ form.username }}
+                        </div>
+                        <!-- Campo para contraseña -->
+                        <div class="frame-variant">
+                          <label for="id_password">Contraseña</label>
+                          {{ form.password }}
+                        </div>
+                        <!-- Campo oculto para redirigir después del login -->
+                        <input type="hidden" name="next" value="{% url 'landing_page' %}">
+                        <!-- Botón de envío -->
+                        <div class="frame-15">
+                          <button type="submit" class="registrarme">Ingresar</button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <p class="no-tengo-cuenta">
+                      <span class="text-wrapper-5">No tengo cuenta, quiero </span>
+                      <a href="{% url 'register' %}" class="text-wrapper-6">Registrarme</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="capa"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
